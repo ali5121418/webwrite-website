@@ -1,0 +1,77 @@
+body {
+    height: 4000px;
+}
+
+.page3 {
+    background: rgb(24, 23, 23);
+    width: 100vw;
+    height: auto;
+}
+
+.page3dd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.page3dd img {
+    width: 270px;
+    height: 350px;
+}
+
+.page3d1 {
+    background: linear-gradient(180deg, #01B0FF 0%, #0051F1 100%);
+    border-radius: 10px;
+    position: absolute;
+    top: 230px;
+    left: 630px;
+    /* height: 350px; */
+}
+
+.page3d11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 50px;
+}
+
+.page3d11 i {
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.page3d11 p {
+    text-align: center;
+    margin-top: 14px;
+    line-height: 20px;
+    font-family: poppins;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.page3d11 p span {
+    font-family: lobster;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.page3d11 button {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 38px;
+    border: none;
+    padding: 7px 20px;
+    color: #fff;
+}
+
+.pline {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    width: 190px;
+}

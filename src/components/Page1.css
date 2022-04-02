@@ -1,0 +1,142 @@
+.page1 {
+    position: relative;
+    width: 100vw
+}
+
+.page1 img {
+    width: 100%;
+}
+
+.page1overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #0C0F16;
+    opacity: 0.75;
+}
+
+.page1d {
+    background: #01B0FF;
+    position: absolute;
+    z-index: 12;
+    bottom: 0px;
+    left: 15%;
+    width: 50px;
+    height: 100px;
+    border-radius: 7px;
+    box-shadow: -8px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.page1dc1 {
+    background: #01B0FF;
+    position: absolute;
+    bottom: 0px;
+    left: 80%;
+    width: 50px;
+    height: 200px;
+    border-radius: 7px;
+    box-shadow: -8px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.page1dc2 {
+    background: #01B0FF;
+    position: absolute;
+    bottom: 0px;
+    left: 80%;
+    width: 50px;
+    height: 300px;
+    border-radius: 7px;
+    box-shadow: -8px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.page1dc3 {
+    background: linear-gradient(180deg, #01B0FF 0%, #0051F1 100%);
+    box-shadow: -8px 0px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: 0px;
+    left: 80%;
+    width: 300px;
+    height: 400px;
+    border-radius: 7px;
+    box-shadow: -8px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1dc3 div {
+    border: 2px solid #fff;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.page1dc3p1 {
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 6px;
+}
+
+.page1dc3 h2 {
+    color: #fff;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.page1dc3 h2 span {
+    font-family: lobster;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.page1dc3p2 {
+    color: #fff;
+    font-family: poppins;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.page1d2 {
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    z-index: 10;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page1d2 h1 {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.btndiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button {
+    margin: 0 7px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    padding: 7px 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}

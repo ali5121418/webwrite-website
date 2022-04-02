@@ -1,0 +1,110 @@
+.page2 {
+    background: rgb(20, 19, 19);
+    /* height: 500px; */
+    position: relative;
+    width: 100vw;
+}
+
+.page2d {
+    padding: 100px 50px 30px 50px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.page2d h1 {
+    margin-right: 30px;
+    padding-left: 50px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.page2d2 {
+    border-bottom: 1px solid #fff;
+    margin-left: 50px;
+    padding-bottom: 15px;
+}
+
+.page2d2 a {
+    text-decoration: none;
+    margin: 0 14px;
+    color: #fff;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.boxd {
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+.boxd img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.btndivv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndivv button {
+    margin: 0 7px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    padding: 7px 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.active {
+    color: dodgerblue !important;
+    /* font-size: 30px; */
+}
+
+.page3d {
+    padding-left: 100px;
+}
+
+.page3d img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.page3d h1 {
+    margin-bottom: 20px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.page3d p {
+    padding-bottom: 40px;
+    color: #fff;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.see {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.see button {
+    margin-left: 50px;
+    color: dodgerblue;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 300;
+}

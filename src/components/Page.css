@@ -1,0 +1,131 @@
+.page {
+    background: rgb(24, 23, 23);
+    width: 100vw;
+}
+
+.pd1 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 90px 100px;
+}
+
+.pd1c p {
+    margin-bottom: 10px;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 300px;
+}
+
+.pd1c h2 {
+    line-height: 35px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.pp1 {
+    line-height: 30.5px;
+    font-family: poppins;
+    font-weight: 300;
+}
+
+.pp2 {
+    font-family: poppins;
+    font-weight: 300;
+    margin-top: 14px;
+}
+
+.pd2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pd2c {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.05) 100%);
+    opacity: 0.9;
+    padding: 30px 25px;
+    width: fit-content;
+    color: #fff;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+.pd2c i,
+h2,
+p {
+    margin-bottom: 20px;
+}
+
+.pd2c i {
+    font-size: 40px;
+    color: rgb(22, 169, 253);
+}
+
+.pd2c h2 {
+    font-family: poppins;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.pd2c h2 span {
+    font-family: lobster;
+    font-weight: 400;
+}
+
+.pd2c p {
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.pd2c1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.pd2c1l {
+    border: 2px solid black;
+    width: 200px;
+    margin-bottom: 12px;
+}
+
+.btnd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnd button {
+    margin: 0 7px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    padding: 7px 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.pd2c2 {
+    color: #fff;
+    margin-left: 100px;
+}
+
+.pd2c2 p {
+    margin-bottom: 40px;
+    font-family: poppins;
+    font-weight: 300;
+}
+
+.ma {
+    border-top: 1.5px solid rgb(22, 169, 253);
+    padding-top: 5px;
+    color: rgb(22, 169, 253);
+}
